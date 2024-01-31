@@ -1,9 +1,8 @@
 숙제
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
-|실버 1|2667번|단지번호붙이기|https://www.acmicpc.net/problem/2667|
-|실버 1|2583번|영역 구하기|https://www.acmicpc.net/problem/2583|
-|실버 2|18352번|특정 거리의 도시 찾기|https://www.acmicpc.net/problem/18352|
+||번||https://www.acmicpc.net/problem/|
+||번||https://www.acmicpc.net/problem/|
 
 스터디 진행 중 풀이
 |난이도|번호|제목|링크|
