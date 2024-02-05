@@ -23,7 +23,7 @@
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
 |골드 1|13460번|구슬 탈출2|https://www.acmicpc.net/problem/13460|
-|실버 1|2468번|안전 영역|https://www.acmicpc.net/problem/2648|
+|실버 1|2468번|안전 영역|https://www.acmicpc.net/problem/2468|
 |골드 2|1513번|경로 찾기|https://www.acmicpc.net/problem/1513|
 |골드 4|1043번|거짓말|https://www.acmicpc.net/problem/1043|
 |실드 2|11048번|이동하기|https://www.acmicpc.net/problem/11048|
