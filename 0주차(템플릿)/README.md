@@ -1,7 +1,7 @@
 > 마크다운 사용법 링크: https://gist.github.com/ihoneymon/652be052a0727ad59601
 ## 숙제
 |난이도|번호|제목|링크|
-|-----|-----|---------------------|----------------------------------------|
+|-|-|-|-|
 ||번||https://www.acmicpc.net/problem/|
 ||번||https://www.acmicpc.net/problem/|
 
