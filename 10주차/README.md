@@ -2,8 +2,8 @@
 ## 숙제
 |난이도|번호|제목|링크|
 |-|-|-|-|
-||번||https://www.acmicpc.net/problem/|
-||번||https://www.acmicpc.net/problem/|
+|골드 4|번||https://www.acmicpc.net/problem/|
+|골드 5|번||https://www.acmicpc.net/problem/|
 
 ## 스터디 진행 중 풀이
 |난이도|번호|제목|링크|
@@ -16,8 +16,8 @@
 #### 민기홍
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
-|골드 4|번||https://www.acmicpc.net/problem/|
-|골드 5|번||https://www.acmicpc.net/problem/|
+|골드 5|2293번|동전 1|https://www.acmicpc.net/problem/2293|
+|골드 5|2294번|동전 2|https://www.acmicpc.net/problem/2294|
 
 #### 김서영
 |난이도|번호|제목|링크|
