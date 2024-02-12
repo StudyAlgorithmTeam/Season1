@@ -46,5 +46,4 @@
 #### 서동혁
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
-|골드 4|번||https://www.acmicpc.net/problem/|
-|골드 5|번||https://www.acmicpc.net/problem/|
+|실버 1|14888번||https://www.acmicpc.net/problem/14888|
