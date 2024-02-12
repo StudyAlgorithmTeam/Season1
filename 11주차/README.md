@@ -1,8 +1,14 @@
 > 마크다운 사용법 링크: https://gist.github.com/ihoneymon/652be052a0727ad59601
+
+> 2023/2/12 회의 내용:
+> 1. 2/19 (월) -> LCS 문제 깃에 제출
+> 2. 2/26 (월) -> 문제 선정 및 스터디 날짜 선정
+> 3. 개강 -> LCS과 선정한 문제 풀이
+
 ## 숙제
 |난이도|번호|제목|링크|
 |-|-|-|-|
-||번||https://www.acmicpc.net/problem/|
+|골드 5|9251번|LCS|https://www.acmicpc.net/problem/9251|
 ||번||https://www.acmicpc.net/problem/|
 
 ## 스터디 진행 중 풀이
