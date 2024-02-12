@@ -40,8 +40,8 @@
 #### 정우현
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
-|골드 4|번||https://www.acmicpc.net/problem/|
-|골드 5|번||https://www.acmicpc.net/problem/|
+|골드 5|15486번|퇴사 2|https://www.acmicpc.net/problem/15486|
+|골드 5|9251번|LCS|https://www.acmicpc.net/problem/9251|
 
 #### 서동혁
 |난이도|번호|제목|링크|
