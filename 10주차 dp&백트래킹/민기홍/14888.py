@@ -22,9 +22,8 @@ def backtrack(depth, total, plus, minus, multi, divide):
     if divide:
         if total < 0:
             backtrack(depth + 1, -(-total // A[depth]), plus, minus, multi, divide - 1)
-        backtrack(depth + 1, total // A[depth], plus, minus, multi, divide - 1)
-        #else:
-        #    backtrack(depth + 1, total // A[depth], plus, minus, multi, divide - 1)
+        else:
+            backtrack(depth + 1, total // A[depth], plus, minus, multi, divide - 1)
 
 backtrack(1, A[0], operator[0], operator[1], operator[2], operator[3])
 print(maximum)
