@@ -28,8 +28,8 @@
 #### 김동주
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
-|골드 4|번||https://www.acmicpc.net/problem/|
-|골드 5|번||https://www.acmicpc.net/problem/|
+|실버 3|11659번|[구간 합 구하기 4](https://www.acmicpc.net/problem/11659)|https://www.acmicpc.net/problem/11659|
+|골드 4|24838번|[배열 구간합 놀이](https://www.acmicpc.net/problem/24838)|https://www.acmicpc.net/problem/24838|
 
 #### 정우현
 |난이도|번호|제목|링크|
