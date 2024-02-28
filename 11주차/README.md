@@ -8,22 +8,15 @@
 ## 숙제
 |난이도|번호|제목|링크|
 |-|-|-|-|
-|골드 5|9251번|LCS|https://www.acmicpc.net/problem/9251|
-||번||https://www.acmicpc.net/problem/|
-
-## 스터디 진행 중 풀이
-|난이도|번호|제목|링크|
-|-----|-----|----------|----------------------------------------|
-|난이도|번호|제목|링크|
-|골드 4|번||https://www.acmicpc.net/problem/|
-
+|실버 2|1254번|팰린드롭 만들기|https://www.acmicpc.net/problem/1254|
+|골드 5|1334번|다음 팰린드롬 수|https://www.acmicpc.net/problem/1334|
 
 ## 찾아온 문제들
 #### 민기홍
 |난이도|번호|제목|링크|
 |-----|-----|---------------------|----------------------------------------|
-|골드 4|번||https://www.acmicpc.net/problem/|
-|골드 5|번||https://www.acmicpc.net/problem/|
+|실버 1|11660번|구간 합 구하기 5|https://www.acmicpc.net/problem/11660|
+|골드 4|1806번|부분합|https://www.acmicpc.net/problem/1806|
 
 #### 김동주
 |난이도|번호|제목|링크|
