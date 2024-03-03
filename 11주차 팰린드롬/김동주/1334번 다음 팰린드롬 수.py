@@ -23,34 +23,28 @@ def make_palindrome(numbers: typing.List[int], s: int = 0, e: int = None, increa
             # e번째 자리 수 이전에 증가된 숫자가 없을 경우에는 숫자를 낮출 수 없다.
             # 따라서, 앞자리 수에서 값을 증가시킨 뒤, e번째 숫자를 낮춘다.
             increased_at = increase_a_bit(numbers, s, e)
-    numbers[e] = numbers[s]
 
+    # s와 e사이에 낀 숫자들 부터 펠린드롬을 맞춰주자.
+    # 중간에 또 일부 숫자가 증가 할 수도 있으므로, e번째 숫자를 s로 덮어 씌우는 것은 나중에 한다.
     make_palindrome(numbers, s+1, e-1, increased_at)
+
+    numbers[e] = numbers[s]
 
 
 def increase_a_bit(numbers: typing.List[int], s: int, e: int) -> int:
-    """펠린드롬을 만들어 가면서 증가 시킬 수 있는 수 중 가장 작은 숫자를 증가시킴.
+    """[s, e) 구간에서 증가 시킬 수 있는 수 중 가장 작은 숫자를 증가시킴.
 
     증가시킨 수의 인덱스를 반환한다.
     """
-    # 펠린드롬의 양 끝단에서 부터 탐색 시작
-    while s < e:
-        if numbers[s] > numbers[e]:
-            # 증가 시켜야 할 낮은 자리 수를 발견하면 해당 숫자를 증가시키고 종료.
-            numbers[e] = numbers[s]
-            return e
-        s += 1
-        e -= 1
-    # 여기까지 왔다는 건, 중간에 증가시킬 숫자가 없어서 s와 e가 가운데 까지 왔다는 뜻.
-    # e보다 높은 자릿 수 중, 9가 아닌 가장 낮은 자릿 수를 찾아 1 증가시키자.
-    while numbers[e] == 9:
-        e -= 1
-        s += 1
-    numbers[e] += 1
-    # 증가시킨 숫자보다 낮은 자리 수들은 0으로 바꿔준다.
-    for i in range(e+1, s):
-        numbers[i] = 0
-    return e
+    for i in range(e-1, s-1, -1):
+        if numbers[i] != 9:
+            numbers[i] += 1
+            # 증가시킨 이후의 숫자는 가장 작은 수(=0)로 맞춰주자.
+            for j in range(i+1, e):
+                numbers[j] = 0
+            return i
+    raise ValueError('omg 증가를 시킬 숫자가 없다!!!')
+
 
 
 if __name__ == "__main__":
