@@ -24,11 +24,10 @@ def make_palindrome(numbers: typing.List[int], s: int = 0, e: int = None, increa
             # 따라서, 앞자리 수에서 값을 증가시킨 뒤, e번째 숫자를 낮춘다.
             increased_at = increase_a_bit(numbers, s, e)
 
-    # s와 e사이에 낀 숫자들 부터 펠린드롬을 맞춰주자.
-    # 중간에 또 일부 숫자가 증가 할 수도 있으므로, e번째 숫자를 s로 덮어 씌우는 것은 나중에 한다.
+    numbers[e] = numbers[s]
+
     make_palindrome(numbers, s+1, e-1, increased_at)
 
-    numbers[e] = numbers[s]
 
 
 def increase_a_bit(numbers: typing.List[int], s: int, e: int) -> int:
